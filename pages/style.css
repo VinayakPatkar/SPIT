@@ -3,9 +3,14 @@
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    margin: auto;
+    margin: 20px 20px 20px 20px;
+    padding: 20;
+    max-width: 100%;
+    background: rgb(246, 243, 247);
   }
   
+  .navbar logo{
+    border-radius: 50%;  }
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -86,7 +91,7 @@ p{
 }
 .header
 {
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#0f064c);
 }
 .header row{
     margin-top: 70px;
@@ -254,8 +259,8 @@ ul{
     margin-top: 20px;
 }
 app-logo img{
-    width: 140px;
-    max-width: 200px;
+    width: 70%;
+    max-width: 100px;
 }
 .footer hr{
     border: none;
